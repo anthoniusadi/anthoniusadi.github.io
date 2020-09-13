@@ -9,17 +9,10 @@ header {
   
 header video {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
+
+    width: 100%;
     height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+
   }
   
 header .container {
@@ -109,15 +102,17 @@ header .overlay {
     font-family: 'Monoton', cursive;
     color: rgb(241, 241, 241);
     font-size: 57px;
-    padding-left: 630px
+    padding-left: 610px;
+    padding-bottom: 0px;
 
 }
 .intro h2{
-    padding-top: 0px;
+    padding-top: 350px;
     font-family: 'Monoton', cursive;
     color: rgb(241, 241, 241);
     font-size: 57px;
-    margin-left: 920px;
+    margin-left: 900px;
+    padding-bottom: 0px;
 }
 .intro p{
     font-size: 30px;
@@ -125,6 +120,10 @@ header .overlay {
     padding-top: 0px;
     color: rgb(241, 241, 241);
     margin-left: 660px;
+}
+.intro button{
+
+    margin-left: 830px;
 }
 .map-responsive{
     overflow: hidden;
@@ -187,3 +186,87 @@ html{
 .service img{
     opacity: 0.3;
 }
+
+    @media screen and (max-width: 899px) {
+        .intro h1{
+            padding-top: 0px;
+            font-family: 'Monoton', cursive;
+            color: rgb(241, 241, 241);
+            font-size: 37px;
+            padding-left: 100px;
+            padding-bottom: 0px;
+        }
+    }
+
+    @media screen and (max-width: 899px) {
+
+        .intro h2{
+            padding-top: 120px;
+            font-family: 'Monoton', cursive;
+            color: rgb(241, 241, 241);
+            font-size: 37px;
+            margin-left: 100px;
+            padding-bottom: 0px;
+        }
+    }
+    @media screen and (max-width: 899px) {
+        .intro p{
+            font-size: 20px;
+            font-family: 'Source Code Pro', monospace;
+            padding-top: 0px;
+            color: rgb(241, 241, 241);
+            margin-left: 100px;
+        }
+        
+    }
+
+    @media screen and (max-width: 899px) {
+        .intro button{
+
+            margin-left: 100px;
+        }
+        
+    }
+        
+    /* *untuk ukuran lainnya */
+    @media screen and (max-width: 510px) {
+        .intro h1{
+            padding-top: 0px;
+            font-family: 'Monoton', cursive;
+            color: rgb(241, 241, 241);
+            font-size: 30px;
+            padding-left: 100px;
+            padding-bottom: 0px;
+        }
+    }
+
+    @media screen and (max-width: 510px) {
+
+        .intro h2{
+            padding-top: 70px;
+            font-family: 'Monoton', cursive;
+            color: rgb(241, 241, 241);
+            font-size: 30px;
+            margin-left: 100px;
+            padding-bottom: 0px;
+        }
+    }
+    @media screen and (max-width: 510px) {
+        .intro p{
+            font-size: 10px;
+            font-family: 'Source Code Pro', monospace;
+            padding-top: 0px;
+            color: rgb(241, 241, 241);
+            margin-left: 100px;
+        }
+        
+    }
+
+    @media screen and (max-width: 510px) {
+        .intro button{
+            font-size: 10px;
+            margin-left: 100px;
+        }
+        
+    }
+        
