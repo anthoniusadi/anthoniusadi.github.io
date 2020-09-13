@@ -1,0 +1,189 @@
+header {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+
+  
+.navbar{
+    background: transparent; 
+    opacity: 70%;
+}
+/* .about{
+    padding-top: -100px;
+    background-image:url('img/wedding5.jpeg') ;
+    background-size:cover;
+    background-position: center; 
+    opacity: 0.6;
+
+}    */
+.about hr{
+    width: 500px;
+    border-top: 3px solid;
+    color: black;
+    
+}
+/* .service{
+    padding-top: -100px;
+    background-image:url('img/wedding5.jpeg') ;
+    background-size:cover;
+    background-position: center; 
+    opacity: 0.6;
+    
+} */
+.service hr{
+    width: 120px;
+    border-top: 2px solid;
+}
+.contact hr{
+    width: 120px;
+    border-top: 2px solid;
+}
+.language hr{
+    width: 500px;
+    border-top: 2px solid;
+}
+.tools hr{
+    width: 120px;
+    border-top: 2px solid;
+
+}
+.portfolio hr{
+    width: 920px;
+    border-top: 2px solid;
+}
+/* .language img{
+    width:40% ;
+} */
+.jumbotron{
+    margin-top:0px; 
+    background-image: url('/img/artis2.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+.about img{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.intro h1{
+    padding-top: 0px;
+    font-family: 'Monoton', cursive;
+    color: rgb(241, 241, 241);
+    font-size: 57px;
+    padding-left: 630px
+
+}
+.intro h2{
+    padding-top: 0px;
+    font-family: 'Monoton', cursive;
+    color: rgb(241, 241, 241);
+    font-size: 57px;
+    margin-left: 920px;
+}
+.intro p{
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 0px;
+    color: rgb(241, 241, 241);
+    margin-left: 660px;
+}
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
+}
+.map-responsive iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.contact{
+    background-image: url(/img/back.jpg);
+    background-size:cover;
+}
+.contact hr{
+    background: white;	
+}
+
+.contact-form{
+    background:rgba(0,0,0, .6);
+    color:white;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px grey;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.imggallery{
+    max-height: 250px;
+}
+.portfolio h4{
+    font-size: 30px;
+    font-family: 'Noto Serif JP', serif;
+    padding-top: 0px;
+    color: rgb(36, 34, 34);
+}
+.teks{
+    font-size: 30px;
+    font-family: 'Allura', cursive;
+    padding-top: 0px;
+    color: rgb(36, 34, 34);
+}
+.portfolio video{
+    max-width: 100%;
+}
+.service h5{
+    color: rgb(224, 216, 216)
+}
+.service p{
+    color: rgb(216, 190, 233)
+}
+.service img{
+    opacity: 0.3;
+}
